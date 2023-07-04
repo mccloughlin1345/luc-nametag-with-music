@@ -1,0 +1,13 @@
+basic.forever(function () {
+    basic.showLeds(`
+        . # # # .
+        # # # # #
+        . . # . .
+        # . # . #
+        . # # # .
+        `)
+    music.play(music.stringPlayable("C D E F G A B C5 ", 120), music.PlaybackMode.UntilDone)
+    basic.showString("Luc")
+    basic.showString("Kevin")
+    basic.showString("Scott")
+})
